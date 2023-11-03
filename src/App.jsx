@@ -6,6 +6,7 @@ import PhoneModel from './sections/PhoneModel'
 import HeroSection from './sections/HeroSection'
 import DesignSection from './sections/DesignSection'
 import DisplaySection from './sections/DisplaySection'
+import ProcessorSection from './sections/ProcessorSection'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <HeroSection/>
       <DesignSection/>
       <DisplaySection/>
+      <ProcessorSection/>
     </>
   )
 }
