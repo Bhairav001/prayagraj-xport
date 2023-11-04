@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import gsap from "gsap";
 import React from "react";
 import { useRef, useLayoutEffect } from "react";
@@ -94,7 +93,6 @@ const ColorSection = () => {
       changeColorContext(colorObj);
     };
 
-    // pin the section
     gsap.to(Elem, {
       scrollTrigger: {
         trigger: Elem,
@@ -168,7 +166,6 @@ const ColorSection = () => {
           <Suspense fallback={null}>
             <Model2 />
           </Suspense>
-          {/* <OrbitControls /> */}
         </Canvas>
       </Right>
     </Section>

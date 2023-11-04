@@ -20,8 +20,8 @@ function App() {
       <PhoneModel/>
       <HeroSection/>
       <DesignSection/>
-      <DisplaySection/>
       <Quote/>
+      <DisplaySection/>
       <ProcessorSection/>
       <BatterySection/>
       <ColorContextProvider>

@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import gsap from "gsap";
 import React from "react";
 import { useLayoutEffect } from "react";
@@ -101,7 +100,7 @@ const CameraSection = () => {
     const video1Elem = videoRef1.current;
     const video2Elem = videoRef2.current;
 
-    // pin the section
+   
     gsap.to(Elem, {
       scrollTrigger: {
         trigger: Elem,
